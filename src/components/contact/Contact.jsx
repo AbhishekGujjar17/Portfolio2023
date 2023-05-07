@@ -26,10 +26,7 @@ const Contact = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     //if you want to use an api for form, just put the api url here.
-    // axios.post(
-    //   "FORM_API_HERE",
-    //   form
-    // );
+    axios.post(process.env.REACT_APP_FORM_API_URL, form);
     setForm({
       name: "",
       email: "",
@@ -75,13 +72,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <form
-          name="contact"
-          method="post"
-          onSubmit={handleSubmit}
-          action=""
-          className="contact__form"
-        >
+        <form name="contact" onSubmit={handleSubmit} className="contact__form">
           <div className="contact__form-group grid">
             <div className="contact__form-div">
               <label htmlFor="name" className="contact__form-tag text-css">

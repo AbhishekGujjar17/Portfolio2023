@@ -15,34 +15,6 @@
 </head>
 
 <body>
-  <form name="contact" method="post" onSubmit={handleSubmit} action="" className="contact__form" netlify
-    netlify-honeypot="bot-field" hidden>
-    <input type="hidden" name="form-name" value="contact" />
-    <div className="contact__form-group grid">
-      <div className="contact__form-div">
-        <input id="name" type="text" value={form.name} name="name" onChange={handleChange}
-          className="contact__form-input" />
-      </div>
-
-      <div className="contact__form-div">
-        <input type="email" id="email" value={form.email} name="email" onChange={handleChange}
-          className="contact__form-input" />
-      </div>
-    </div>
-
-    <div className="contact__form-div">
-      <input type="text" id="subject" value={form.subject} name="subject" onChange={handleChange}
-        className="contact__form-input" />
-    </div>
-
-    <div className="contact__form-div contact__form-area">
-      <textarea type="text" id="message" value={form.message} name="message" onChange={handleChange}
-        className="contact__form-input"></textarea>
-    </div>
-
-    <div className="contact__submit">
-    </div>
-  </form>
   <div id="root"></div>
   <script type="module" src="/src/main.jsx"></script>
 </body>
