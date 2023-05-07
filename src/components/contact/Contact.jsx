@@ -26,7 +26,7 @@ const Contact = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     //if you want to use an api for form, just put the api url here.
-    axios.post(process.env.REACT_APP_FORM_API_URL, form);
+    axios.post(import.meta.env.VITE_FORM_API_URL, form);
     setForm({
       name: "",
       email: "",
