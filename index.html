@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <meta name="description" content="Abhishek Gujjar Portfolio">
+  <meta name="keywords"
+    content="Abhishek Gujjar, Abhishek, Abhishek Portfolio, Abhishek Gujjar Portfolio,Abhishek Gujjar Mun, Abhishek Gujjar MUN, Abhishek MUN, Abhishek Linkedin, Abhishek Gujjar Linkedin, Abhishek Github, Abhishek Gujjar Github, Abhishek Twitter, Abhishek Gujjar Portfolio, Abhishek Gujjar Netlify, Abhishek Netlify, JavaScript, React, AWS, MERN,typescript"
+    ,>
+  <meta name="author" content="Abhishek Gujjar">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <title>Abhishek Gujjar</title>
+</head>
+
+<body>
+  <form name="contact" method="post" onSubmit={handleSubmit} action="" className="contact__form" netlify
+    netlify-honeypot="bot-field" hidden>
+    <div className="contact__form-group grid">
+      <div className="contact__form-div">
+        <input id="name" type="text" value={form.name} name="name" onChange={handleChange}
+          className="contact__form-input" />
+      </div>
+
+      <div className="contact__form-div">
+        <input type="email" id="email" value={form.email} name="email" onChange={handleChange}
+          className="contact__form-input" />
+      </div>
+    </div>
+
+    <div className="contact__form-div">
+      <input type="text" id="subject" value={form.subject} name="subject" onChange={handleChange}
+        className="contact__form-input" />
+    </div>
+
+    <div className="contact__form-div contact__form-area">
+      <textarea type="text" id="message" value={form.message} name="message" onChange={handleChange}
+        className="contact__form-input"></textarea>
+    </div>
+
+    <div className="contact__submit">
+    </div>
+  </form>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>
