@@ -12,7 +12,7 @@ import Seo from "../SEO/Seo";
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
   const [scrollNav, setScrollNav] = useState(false);
-  const [theme, setTheme] = useState("light-theme");
+  const [theme, setTheme] = useState("dark-theme");
 
   const scrollTop = () => {
     animateScroll.scrollToTop();

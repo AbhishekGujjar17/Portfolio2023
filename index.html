@@ -17,6 +17,7 @@
 <body>
   <form name="contact" method="post" onSubmit={handleSubmit} action="" className="contact__form" netlify
     netlify-honeypot="bot-field" hidden>
+    <input type="hidden" name="form-name" value="contact" />
     <div className="contact__form-group grid">
       <div className="contact__form-div">
         <input id="name" type="text" value={form.name} name="name" onChange={handleChange}

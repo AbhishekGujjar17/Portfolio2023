@@ -35,17 +35,18 @@ const Portfolio = () => {
       <p className="section__subtitle subtitle-skills">
         My <span>Projects</span>
       </p>
+      <div className="squeezed">
+        <List list={navList} filterItems={filterItems} />
 
-      <List list={navList} filterItems={filterItems} />
+        <div className="portfolio__container container grid">
+          <AnimatePresence initial={false}>
+            <Items projectItems={projectItems} />
+          </AnimatePresence>
+        </div>
 
-      <div className="portfolio__container container grid">
-        <AnimatePresence initial={false}>
-          <Items projectItems={projectItems} />
-        </AnimatePresence>
-      </div>
-
-      <div className="section__deco deco__left">
-        <img src={shapeOne} alt="" className="shape" />
+        <div className="section__deco deco__left">
+          <img src={shapeOne} alt="" className="shape" />
+        </div>
       </div>
     </section>
   );
