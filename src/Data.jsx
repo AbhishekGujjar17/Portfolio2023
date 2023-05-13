@@ -1,5 +1,5 @@
 import DefaultImage from "./assets/default.png";
-import Book from "./assets/CloudNoteBook.png";
+import Book from "./assets/CloudBook.png";
 import Jarvis from "./assets/Jarvis.jpg";
 import News from "./assets/NewsMonkey.png";
 import Todo from "./assets/Todo.png";
@@ -53,10 +53,10 @@ export const projects = [
     category: "MERN",
     title: "CloudBook",
     description: "With CloudBook take notes on the cloud.",
-    link: "https://cloudnotebooks.netlify.app",
-    repositorio: "https://github.com/AbhishekGujjar17/CloudNoteBook",
+    link: "https://cloudnotebook.vercel.app",
+    repositorio: "https://github.com/AbhishekGujjar17/CloudBook",
     stack:
-      "Html, CSS, Javascript, Bootstrap, ReactJs, NodeJs, ExpressJs, MongoDb, JWT",
+      "Html, CSS, Javascript, Bootstrap, ReactJs, NodeJs, ExpressJs, MongoDb, JWT, Vercel",
   },
   {
     id: 8,
