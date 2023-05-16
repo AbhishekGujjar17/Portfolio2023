@@ -42,7 +42,7 @@ export const projects = [
     category: "MERN",
     title: "Pet MERN-Mart",
     description:
-      "Introducing MERN Mart: The one-stop destination for seamless online shopping.",
+      "Introducing Pet MERN-Mart: The one-stop destination for seamless online shopping for your pets.",
     link: "https://pets-mern-mart.vercel.app",
     repositorio: "https://github.com/AbhishekGujjar17/Pet-MERN-Mart",
     stack:
