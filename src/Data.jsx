@@ -1,5 +1,6 @@
 import DefaultImage from "./assets/default.png";
 import Book from "./assets/CloudBook.png";
+import PetMERNMart from "./assets/Pet-MERN-Mart.png";
 import Jarvis from "./assets/Jarvis.jpg";
 import News from "./assets/NewsMonkey.png";
 import Todo from "./assets/Todo.png";
@@ -37,15 +38,15 @@ export const links = [
 export const projects = [
   {
     id: 12,
-    img: Book,
+    img: PetMERNMart,
     category: "MERN",
-    title: "MERN Mart",
+    title: "Pet MERN-Mart",
     description:
       "Introducing MERN Mart: The one-stop destination for seamless online shopping.",
-    link: "https://mernmart.netlify.app",
-    repositorio: "https://github.com/AbhishekGujjar17/MERN-Mart",
+    link: "https://pets-mern-mart.vercel.app",
+    repositorio: "https://github.com/AbhishekGujjar17/Pet-MERN-Mart",
     stack:
-      "Html, CSS, Javascript, ReactJs, NodeJs, ExpressJs, MongoDb, JWT, Antd, Braintree",
+      "Html, CSS, Javascript, ReactJs, NodeJs, ExpressJs, MongoDb, JWT, Antd, Braintree, Vercel",
   },
   {
     id: 1,
