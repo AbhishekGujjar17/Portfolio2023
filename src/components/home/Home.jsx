@@ -70,7 +70,7 @@ const Home = () => {
               detail-oriented, responsible, and committed developer
             </strong>{" "}
             who is passionate about technology and always have a keen desire to
-            learn new things. I have <strong>over 1 year of experience</strong>{" "}
+            learn new things. I have <strong>over 2 year of experience</strong>{" "}
             in defining requirements, designing, implementing, testing, and
             delivering <strong>software applications</strong> using a variety of
             technologies and <strong>programming languages</strong>.
