@@ -167,7 +167,7 @@ export const cv = [
     subtitle: "Bachelor of Science in Computer Science (Honours)",
     date: "2020 - 2023",
     description:
-      "GPA 🎓: 3.9/4\nCourses 📚: Operating Systems, Data Structures, Analysis Of Algorithms, Artificial Intelligence, Machine Learning, Networking, Databases\nHonors and Awards 🏆: Dean's List (2❌), International Undergraduate Academic Award (💲3000), Roberta Scholarship (💲3056)",
+      "GPA 🎓: 3.93/4\nCourses 📚: Operating Systems, Data Structures, Analysis Of Algorithms, Artificial Intelligence, Machine Learning, Networking, Databases\nHonors and Awards 🏆: Dean's List (2❌), International Undergraduate Academic Award (💲3000), Roberta Scholarship (💲3056)",
     category: "education",
   },
 
